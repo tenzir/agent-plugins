@@ -10,8 +10,8 @@
       "name": "skills",
       "description": "Public Tenzir skills: TQL, schemas, and security data normalization",
       "source": {
-        "source": "url",
-        "url": "https://github.com/tenzir/skills.git",
+        "source": "github",
+        "repo": "tenzir/skills",
         "ref": "main"
       },
       "category": "Developer Tools",
@@ -22,8 +22,8 @@
       "name": "dev-skills",
       "description": "Private Tenzir developer skills for internal engineering workflows",
       "source": {
-        "source": "url",
-        "url": "https://github.com/tenzir/dev-skills.git",
+        "source": "github",
+        "repo": "tenzir/dev-skills",
         "ref": "main"
       },
       "category": "Developer Tools",
