@@ -1,0 +1,34 @@
+{
+  "name": "tenzir",
+  "owner": {
+    "name": "Tenzir",
+    "url": "https://tenzir.com"
+  },
+  "description": "Tenzir agent plugins for Claude Code",
+  "plugins": [
+    {
+      "name": "skills",
+      "description": "Public Tenzir skills: TQL, schemas, and security data normalization",
+      "source": {
+        "source": "github",
+        "repo": "tenzir/skills",
+        "ref": "main"
+      },
+      "category": "Developer Tools",
+      "homepage": "https://github.com/tenzir/skills",
+      "repository": "https://github.com/tenzir/skills"
+    },
+    {
+      "name": "dev-skills",
+      "description": "Private Tenzir developer skills for internal engineering workflows",
+      "source": {
+        "source": "github",
+        "repo": "tenzir/dev-skills",
+        "ref": "main"
+      },
+      "category": "Developer Tools",
+      "homepage": "https://github.com/tenzir/dev-skills",
+      "repository": "https://github.com/tenzir/dev-skills"
+    }
+  ]
+}
